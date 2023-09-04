@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
 </head>
 
 <body>
@@ -28,10 +28,13 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
             <span>
                 <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </span>
+            <span>
+                <i class="fa-regular fa-comment-dots fa-lg"></i>
             </span>
             <span>
                 <i class="fa-brands fa-itunes-note fa-lg"></i>
@@ -42,65 +45,36 @@
         </div>
     </header>
 
-    <a id="friends-display-link" href="#">
-        <i class="fa-solid fa-circle-info fa-sm"></i>
-        Friends' Names Display
-        <i class="fa-solid fa-chevron-right fa-sm"></i>
-    </a>
-
 
     <main class="main__screen">
         <div class="user-component">
             <div class="user-component__column">
-                <img src="https://avatars.githubusercontent.com/u/97445896?s=48&v=4"
-                    class="user-component__avatar user-component__avatar--xl" />
+                <img src="https://play-lh.googleusercontent.com/8_0SDfkFXAFm12A7XEqkyChCdGC055J6fC8JR7qynNuO3qNOczIoNHo4U4lad8xYMJOL"
+                    class="user-component__avatar" />
                 <div class="user-compnent__text">
-                    <h4 class="user-component__title">DoubleS</h4>
-                    <!-- <h6 class="user-component__subtitle">this text wahtever</h6> -->
+                    <h4 class="user-component__title">KokoaTalk</h4>
+                    <h6 class="user-component__subtitle">Please check My Kokoa Account Info</h6>
                 </div>
             </div>
             <div class="user-component__column">
-                <!-- 프사, 닉네임과 같은 줄에 아이콘이 들어와야할 때 여기에 넣음 -->
+                <span class="user-component__time">21:22</span>
+                <div class="badge badge__num">1</div>
             </div>
         </div>
 
-        <div class="friends-screen__channel">
-            <div class="friends-screen__channel-header">
-                <span>Channel
-                </span>
-                <i class="fa-solid fa-angle-up fa-sm"></i>
-            </div>
-        </div>
-
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="https://play-lh.googleusercontent.com/cf3DwPLbS8Z55sDvUSTQ6PL1goPdm8KbZ81g4TEUAaeUh5LDhkzdjxKQ2RX6BGpv0x4"
-                    class="user-component__avatar user-component__avatar--sm" />
-                <div class="user-compnent__text">
-                    <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-                    <!-- <h6 class="user-component__subtitle">this text wahtever</h6> -->
-                </div>
-            </div>
-            <div class="user-component__column">
-                <div>
-                    <span>2</span>
-                    <i class="fa-solid fa-chevron-right fa-sm"></i>
-                </div>
-
-            </div>
-        </div>
 
     </main>
 
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
-                <a class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a>
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-regular fa-user fa-2x"></i></a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="badge badge__num nav__notification__num">1</span>
-                    <i class="fa-regular fa-comment fa-2x"></i>
+                    <i class="fa-solid fa-comment fa-2x"></i>
                 </a>
             </li>
             <li class="nav__btn">

@@ -1,0 +1,21 @@
+.badge {
+  background-color: #ff6229;
+  color: white;
+  border-radius: 50%;
+}
+
+.badge__num {
+  width: 29px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.badge__dot {
+  width: 5px;
+  height: 5px;
+}
