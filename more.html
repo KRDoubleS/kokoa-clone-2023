@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
 </head>
 
 <body>
@@ -28,7 +28,7 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <span>
                 <i class="fa-solid fa-magnifying-glass fa-lg"></i>
@@ -38,57 +38,77 @@
             </span>
             <span>
                 <a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a>
+
             </span>
             <span class="badge badge__dot screen-header__notification__dot">
             </span>
         </div>
     </header>
 
-    <a id="friends-display-link" href="#">
-        <i class="fa-solid fa-circle-info fa-sm"></i>
-        Friends' Names Display
-        <i class="fa-solid fa-chevron-right fa-sm"></i>
-    </a>
 
-
-    <main class="main__screen">
+    <main class="main__screen more-screen">
         <div class="user-component">
             <div class="user-component__column">
                 <img src="https://avatars.githubusercontent.com/u/97445896?s=48&v=4"
                     class="user-component__avatar user-component__avatar--xl" />
-                <div class="user-compnent__text">
+                <div class="user-component__text">
                     <h4 class="user-component__title">DoubleS</h4>
-                    <!-- <h6 class="user-component__subtitle">this text wahtever</h6> -->
+                    <div class="user-component__subtitlebox">
+                        <h6 class="user-component__subtitlebox__subtitle">+1 787-493-4219</h6>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
                 </div>
             </div>
             <div class="user-component__column">
-                <!-- 프사, 닉네임과 같은 줄에 아이콘이 들어와야할 때 여기에 넣음 -->
+                <i class="fa-regular fa-message fa-2xl"></i>
             </div>
         </div>
 
-        <div class="friends-screen__channel">
-            <div class="friends-screen__channel-header">
-                <span>Channel
-                </span>
-                <i class="fa-solid fa-angle-up fa-sm"></i>
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-calendar fa-2xl"></i>
+                <span>Calendar</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-inbox fa-2xl"></i>
+                <span>Talk Drive</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-face-smile fa-2xl"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-brush fa-2xl"></i>
+                <span>Themes</span>
+            </div>
+        </div>
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-id-card fa-2xl"></i>
+                <span>Account</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-comments fa-2xl"></i>
+                <span>Openchat</span>
             </div>
         </div>
 
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="https://play-lh.googleusercontent.com/cf3DwPLbS8Z55sDvUSTQ6PL1goPdm8KbZ81g4TEUAaeUh5LDhkzdjxKQ2RX6BGpv0x4"
-                    class="user-component__avatar user-component__avatar--sm" />
-                <div class="user-compnent__text">
-                    <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-                    <!-- <h6 class="user-component__subtitle">this text wahtever</h6> -->
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="icon-row">
+                <div class="icon-row__icon">
+                    <img src="https://blog.kakaocdn.net/dn/CNqfY/btqzjsct2YY/PfKa0QqNmiKdUticLxuAaK/img.png" alt="">
+                    <span>Kokoa Story</span>
                 </div>
-            </div>
-            <div class="user-component__column">
-                <div>
-                    <span>2</span>
-                    <i class="fa-solid fa-chevron-right fa-sm"></i>
+                <div class="icon-row__icon">
+                    <img src="https://m.media-amazon.com/images/S/aplus-media/sc/b865fbe6-816a-439e-a43b-146b727372a0.__CR0,0,300,300_PT0_SX300_V1___.png"
+                        alt="">
+                    <span>Kokoa friends</span>
                 </div>
-
+                <div class="icon-row__icon">
+                    <img src="https://i.pinimg.com/1200x/48/07/1a/48071a7df9d13806b3e9bedc03d693be.jpg" alt="">
+                    <span>Friends Gem</span>
+                </div>
             </div>
         </div>
 
@@ -97,7 +117,8 @@
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
-                <a class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a>
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-regular fa-user fa-2x"></i></a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
